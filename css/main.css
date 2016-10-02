@@ -1,0 +1,65 @@
+/* Inserta tu código aquí */
+header {
+	background-color: #CF242B;
+	color: #F1EAB1;
+}
+header h3,nav {
+	margin-top: 1%;
+}
+li {
+	display: inline-block;
+	padding-right: 2%;
+}
+header a {
+	color: #F1EAB1;
+	text-decoration: none;	 
+}
+@media (max-width: 767px){
+	a {
+		display: none;
+		 
+	}
+}
+i {
+	margin-top: -3%;
+}
+.fondo {
+	background-image: url(../img/creamy.jpg);
+	background-position: -30%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	
+	color: #F1EAB1;
+}
+.opaco{
+	background-color: hsla(0, 0%, 0%, 0.5);
+	color: #F1EAB1;
+	padding: 12%;
+}
+.rosa {
+	background-color: #F1EAB1;
+	padding: 5%;
+	color: #CF242B;
+	text-align: center;
+}
+.rosa img {
+	max-width: 100%;
+}
+.fuxia {
+	background-color: #CF242B;
+	text-align: center; 
+	color: #F1EAB1;
+	padding: 3%;
+}
+.iconos {
+	padding: 3%;
+	background-color: #F1EAB1;
+	text-align: center;
+	color: #CF242B;
+}
+footer {
+	background-color: #CF242B;
+	padding: 1%;
+	color: #F1EAB1;
+}
